@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#dcecf2">
+  <meta name="description" content="A birthday love letter made for Tanjim — 24 September 2026.">
+  <title>For Tanjim — 24 September 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function() {
+      try {
+        var saved = localStorage.getItem("theme");
+        var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (saved === "dark" || (!saved && prefersDark)) {
+          document.documentElement.classList.add("dark");
+        } else {
+          document.documentElement.classList.remove("dark");
+        }
+      } catch(e) {}
+    })();
+  </script>
+</head>
+<body>
+  <div id="petals" aria-hidden="true"></div>
+
+  <div class="opening" id="opening">
+    <div class="opening-glow"></div>
+    <div class="envelope">
+      <div class="envelope-flap"></div>
+      <div class="envelope-card">
+        <span class="tiny">A little something for</span>
+        <strong>Tanjim</strong>
+        <span class="tiny">24 · 09 · 2026</span>
+      </div>
+    </div>
+    <p class="opening-line">There is a little world I wanted to make for you.</p>
+    <div style="display:flex;gap:12px;align-items:center;">
+      <button class="primary-btn" id="openBtn">Open it <span>♡</span></button>
+      <button class="primary-btn theme-toggle-btn" id="themeBtnOpening" aria-label="Toggle dark mode">🌙 <span>Night</span></button>
+    </div>
+    <p class="tap-note">best experienced with sound on</p>
+  </div>
+
+  <main id="site" class="site hidden">
+    <header class="topbar">
+      <a class="brand" href="#home">T<span>♡</span></a>
+      <nav>
+        <a href="#memories">Memories</a>
+        <a href="#reasons">26</a>
+        <a href="#letter">Letter</a>
+      </nav>
+      <div class="topbar-actions">
+        <button class="theme-toggle-btn topbar-btn" id="themeBtn" title="Toggle dark mode" aria-label="Toggle dark mode">🌙 <span>Night</span></button>
+        <button class="music-btn" id="musicBtn" title="Play the birthday song">♫ <span>music</span></button>
+      </div>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-photo-wrap">
+        <img class="hero-photo hero-photo-a" src="assets/photo-01.jpg" alt="Tanjim and Tasin together">
+        <div class="hero-photo-b">
+          <img src="assets/photo-03.jpg" alt="Tanjim and Tasin outdoors">
+        </div>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">24 September · 2026</p>
+        <h1>Happy Birthday,<br><em>Tanjim.</em></h1>
+        <p class="hero-sub">Twenty-six years of you [যদিও আসলে ১৬(তোর বয়স এখনো সবে ষোলো)] and somehow the world still feels a little softer whenever you smile.</p>
+        <a href="#memories" class="scroll-cue">keep scrolling <span>↓</span></a>
+      </div>
+      <div class="hero-orbit orbit-one"></div>
+      <div class="hero-orbit orbit-two"></div>
+    </section>
+
+    <section class="intro section-pad">
+      <div class="section-kicker">for the very important lady</div>
+      <div class="intro-grid">
+        <h2>Some people become<br><em>memories.</em><br>Some become home.</h2>
+        <div>
+          <p>I wanted to make you something that wasn't just a birthday wish. Something you could open years from now and still feel the warmth of this little moment.</p>
+          <p>So this is a tiny corner of the internet that belongs to you , filled with photographs, little thoughts, and all the things that are difficult to say in one ordinary message.</p>
+          <div class="signature">— Tasin</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-section" id="memories">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">our little archive</span>
+          <h2>Moments I want<br><em>to keep.</em></h2>
+        </div>
+        <p>Not every beautiful moment announces itself. Some just become precious later.</p>
+      </div>
+
+      <div class="masonry">
+        <figure class="memory memory-tall reveal">
+          <img src="assets/photo-02.jpg" alt="Tanjim at a restaurant">
+          <figcaption><span>01</span><b>A quiet kind of beautiful.</b></figcaption>
+        </figure>
+        <figure class="memory memory-wide reveal">
+          <img src="assets/photo-03.jpg" alt="Tanjim and Tasin outside">
+          <figcaption><span>02</span><b>Us, under an ordinary sky.</b></figcaption>
+        </figure>
+        <figure class="memory memory-small reveal">
+          <img src="assets/photo-05.jpg" alt="Tanjim smiling">
+          <figcaption><span>03</span><b>The sweet hot lady.</b></figcaption>
+        </figure>
+        <figure class="memory memory-medium reveal">
+          <img src="assets/photo-04.jpg" alt="Tanjim and Tasin laughing together">
+          <figcaption><span>04</span><b>That laugh is a whole memory by itself.</b></figcaption>
+        </figure>
+        <figure class="memory memory-wide reveal">
+          <img src="assets/photo-06.jpg" alt="Tanjim in a floral outfit">
+          <figcaption><span>05</span><b>Soft colors. Soft light. You.</b></figcaption>
+        </figure>
+        <figure class="memory memory-tall reveal">
+          <img src="assets/photo-07.jpg" alt="Tanjim looking at a mirror">
+          <figcaption><span>06</span><b>A moment worth stopping for.</b></figcaption>
+        </figure>
+        <figure class="memory memory-medium reveal">
+          <img src="assets/photo-08.jpg" alt="Tanjim and Tasin at a book fair">
+          <figcaption><span>07</span><b>Another little adventure.</b></figcaption>
+        </figure>
+        <figure class="memory memory-wide reveal">
+          <img src="assets/photo-09.jpg" alt="Tanjim and Tasin together">
+          <figcaption><span>08</span><b>Somehow, this feels like us.</b></figcaption>
+        </figure>
+        <figure class="memory memory-small memory-photo-10 reveal">
+            <img src="assets/photo-10.jpg" alt="Tanjim dressed for a special occasion">
+            <figcaption><span>09</span><b>Simply stunning.</b></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="reasons section-pad" id="reasons">
+      <div class="section-heading centered">
+        <span class="section-kicker">because 26 deserves 26</span>
+        <h2>26 little things<br><em>I adore about you.</em></h2>
+        <p>Tap a card. Let it unfold.</p>
+      </div>
+      <div class="reason-grid" id="reasonGrid"></div>
+    </section>
+
+    <section class="feature-photo">
+      <img src="assets/photo-04.jpg" alt="Tanjim and Tasin laughing together">
+      <div class="feature-overlay">
+        <span>this one is my favorite kind of photograph</span>
+        <h2>Because you're<br><em>happy.</em></h2>
+      </div>
+    </section>
+
+    <section class="letter section-pad" id="letter">
+      <div class="letter-paper reveal">
+        <div class="letter-top">
+          <span>24 · 09 · 2026</span>
+          <span>♡</span>
+        </div>
+        <div class="section-kicker">a letter for Tanjim</div>
+        <h2>Dear Tanjim,</h2>
+        <div class="letter-body">
+          <p>Happy 26th birthday to the girl who has become one of the most important people in my world.</p>
+          <p>I don't know if a website can properly hold everything I feel for you, but I wanted to try. These photographs are only photographs; the real memories live in all the little moments between them — the conversations, the laughter, the silly days, the quiet ones, and the times when simply having you around made an ordinary day feel different.</p>
+          <p>I hope 26 brings you a year filled with gentle mornings, exciting plans, good health, beautiful surprises, and all the things your heart quietly wishes for.</p>
+          <p>And whenever you look back at this page, I hope you remember one simple thing: somewhere in this world, there is someone who is very, very grateful that <em>you</em> are you.</p>
+          <p class="final-line">Happy birthday, Tanjim.<br>Stay wonderfully, unmistakably you.</p>
+        </div>
+        <div class="letter-sign">Tasin <span>♡</span></div>
+      </div>
+    </section>
+
+    <section class="finale">
+      <div class="finale-stars"></div>
+      <p class="section-kicker">one last thing</p>
+      <div class="big-number">26</div>
+      <h2>And this is only<br><em>the beginning.</em></h2>
+      <p class="final-message">Happy Birthday, Tanjim. ❤️</p>
+      <button class="replay-btn" id="replayBtn">Start from the beginning ↺</button>
+    </section>
+
+    <footer>
+      <span>Made with too much love.</span>
+      <span>24 · 09 · 2026</span>
+    </footer>
+  </main>
+
+  <!-- Add the legally obtained song file as assets/cocacola.mp3 to enable the music button. -->
+  <audio id="birthdayAudio" loop preload="none">
+    <source src="assets/cocacola.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
